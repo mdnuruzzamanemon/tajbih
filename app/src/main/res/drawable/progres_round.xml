@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape
+            android:shape="ring"
+            android:useLevel="false"
+            android:thickness="15dp"
+            >
+            <solid
+                android:color="#ddd"
+                ></solid>
+        </shape>
+    </item>
+
+    <item>
+        <shape
+            android:shape="ring"
+            android:useLevel="true"
+            android:thickness="15dp"
+            >
+            <gradient
+                android:startColor="#4CAF50"
+                android:centerColor="#DDA90E"
+                android:endColor="#21AA26"
+                >
+            </gradient>
+        </shape>
+    </item>
+</layer-list>
